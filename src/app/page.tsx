@@ -9,3 +9,4 @@ export default function Home() {
   <Card header='Компьютер' body='Персональный , доридоридори'/>
   )
 }
+

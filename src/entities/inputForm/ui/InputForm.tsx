@@ -3,7 +3,7 @@ import styles from './InputForm.module.scss'
 export default function InputForm() {
     return (
 
-<form>
+<form className='flex flex-col gap-5 max-w-xl mx-auto p-5'>
   <div className="mb-6">
     <label  className={styles.label}>Название единицы</label>
     <input type="email" id="email" className={styles.input}  required />

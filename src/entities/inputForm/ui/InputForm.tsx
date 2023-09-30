@@ -1,6 +1,8 @@
 import styles from './InputForm.module.scss'
 
-export default function InputForm() {
+
+export default  function InputForm() {
+
     return (
 
 <form className='flex flex-col gap-5 max-w-xl mx-auto p-5'>

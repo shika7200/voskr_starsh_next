@@ -1,14 +1,12 @@
 
-import { Card } from '@/entities/Card';
-import { InputForm } from '@/entities/inputForm';
+import InsertProduct from "@/widgets/InsertProduct/ui/InsertProduct"
 
 export default function Home() {
 
 
   return (
     <>
-    <InputForm/>
-  <Card header='Компьютер' body='Персональный , доридоридори'/>
+   <InsertProduct/>
   </>
   )
 }

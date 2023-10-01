@@ -1,5 +1,5 @@
 
-export interface Post {
-    header: string;
-    body: string;
+export type Post = {
+    product: string;
+    price: string;
 }

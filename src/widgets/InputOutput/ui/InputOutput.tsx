@@ -11,13 +11,9 @@ export default async function InputOutput() {
     const products:Product[] = await response.json();
   return (
     <>
-    <InputForm/>
-    { products.map((product)=> (
-        <div >
+ 
         <Card product='Компьютер' price='Персональный , доридоридори'/>
-        </div>
-    ))
-    }
+    
   </>
   )
 }

@@ -6,7 +6,7 @@ import { Product } from '../types';
 export default async function InsertProduct() {
 
 
-  const res = await fetch('https://651835f2582f58d62d358105.mockapi.io/products',{
+  const res = await fetch('https://65193ac1818c4e98ac602a04.mockapi.io/products',{
     cache: 'no-cache',
   })
  const products: Product[] = await res.json();

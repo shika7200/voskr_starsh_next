@@ -12,9 +12,19 @@ export default async function InputOutput() {
   return (
     <>
         <InputForm/>
-        <Card product='Компьютер' price='Персональный , доридоридори'/>
+        {
+          products.map((product)=>{
+            <Card product={product.product} price={product.price} />
+          })
+        }
     
   </>
   )
 }
+
+
+
+
+
+
 

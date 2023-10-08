@@ -11,7 +11,7 @@ export default async function InputOutput() {
     const products:Product[] = await response.json();
   return (
     <>
- 
+        <InputForm/>
         <Card product='Компьютер' price='Персональный , доридоридори'/>
     
   </>
